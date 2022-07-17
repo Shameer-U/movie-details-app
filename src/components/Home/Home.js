@@ -22,9 +22,12 @@ const Home = () => {
   //   fetchMovies();
   // }, []);
 
+  const movieText = "Harry";
+  const showText = "Friends";
+
   useEffect(() => {
-      dispatch(fetchAsyncMovies());
-      dispatch(fetchAsyncShows());
+      dispatch(fetchAsyncMovies(movieText));
+      dispatch(fetchAsyncShows(showText));
   }, [dispatch]);
 
   return (
