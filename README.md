@@ -1,3 +1,3 @@
-In the project directory, you can run:
+to run the project, use:
 
 ### `npm start`
